@@ -1,0 +1,39 @@
+{
+  "name": "lsp-for-ai",
+  "version": "1.0.0",
+  "description": "An LSP (Language Server Protocol) daemon for AI-powered code refactoring and semantic operations",
+  "main": "lib/lsp-daemon-core.js",
+  "bin": {
+    "lsp-daemon": "./bin/lsp-daemon.js"
+  },
+  "scripts": {
+    "start": "node bin/lsp-daemon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lsp",
+    "language-server-protocol",
+    "ai",
+    "refactoring",
+    "typescript",
+    "code-analysis",
+    "semantic-operations"
+  ],
+  "author": "Riccardo Forina",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riccardo-forina/lsp-for-ai.git"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ]
+}
